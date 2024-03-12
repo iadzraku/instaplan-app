@@ -1,6 +1,6 @@
 // components/SideNav.js
 
-import Link from 'next/link';
+import Link from "next/link";
 
 const SideNav = () => {
   return (
@@ -13,33 +13,45 @@ const SideNav = () => {
       {/* Menu items */}
       <ul className="py-4">
         <li>
-          <Link href="/components/dashbaord" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Dashboard</a>
+          <Link href={"/dashboard"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Dashboard 
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/exams" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Exams</a>
+          <Link href={"/exams"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Exams
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/timetable" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Timetable</a>
+          <Link href={"/timetable"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Timetable
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/halls" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Halls</a>
+          <Link href={"/halls"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Halls
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/lecturers" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Lecturers</a>
+          <Link href={"/lecturers"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Lecturers
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/courses" legacyBehavior>
-            <a className="block py-2 px-4 text-white hover:bg-gray-700">Courses</a>
+          <Link href={"/courses"} legacyBehavior>
+            <a className="block py-2 px-4 text-white hover:bg-gray-700">
+              Courses
+            </a>
           </Link>
         </li>
       </ul>
