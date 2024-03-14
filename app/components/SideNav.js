@@ -7,7 +7,7 @@ const SideNav = () => {
     <nav className="bg-gray-800 w-64 flex flex-col h-full fixed top-0 left-0">
       {/* Logo */}
       <div className="flex items-center justify-center h-16 bg-gray-900 text-white">
-        <span>Logo</span>
+        <span><Link href={"http://localhost:3000/"}>INSTAPLAN</Link></span>
       </div>
 
       {/* Menu items */}
